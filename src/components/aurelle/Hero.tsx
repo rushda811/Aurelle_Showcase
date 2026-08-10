@@ -44,12 +44,6 @@ export function Hero({ start }: { start: boolean }) {
            >
              Invitation
            </a>
-           <a
-             href="#atelier"
-             className="hidden text-[10px] uppercase tracking-[0.3em] text-muted-foreground transition-colors hover:text-rose sm:inline"
-           >
-             Atelier
-           </a>
           <a href="#inquire" className="btn-lux btn-outline px-4 py-2 text-[10px] sm:px-5">
             Inquire
           </a>
