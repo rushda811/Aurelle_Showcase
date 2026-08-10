@@ -20,19 +20,14 @@ export function Inquiry() {
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
           <a
-            href="https://www.instagram.com/aurellevows"
+            href="https://www.instagram.com/aurelle_vows"
             target="_blank"
             rel="noreferrer"
             className="btn-lux btn-solid w-full px-8 py-4 text-[11px] sm:w-auto"
           >
-            Instagram — @aurellevows
+            Instagram — @aurelle_vows
           </a>
-          <a
-            href="mailto:hello@aurellevows.com"
-            className="btn-lux btn-outline w-full px-8 py-4 text-[11px] sm:w-auto"
-          >
-            hello@aurellevows.com
-          </a>
+
         </div>
       </div>
     </section>

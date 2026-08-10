@@ -5,7 +5,6 @@ import { Hero } from "@/components/aurelle/Hero";
 import { Marquee } from "@/components/aurelle/Marquee";
 import { Showcase } from "@/components/aurelle/Showcase";
 import { InvitationGuide } from "@/components/aurelle/InvitationGuide";
-import { Pricing } from "@/components/aurelle/Pricing";
 import { Inquiry } from "@/components/aurelle/Inquiry";
 import { Footer } from "@/components/aurelle/Footer";
 
@@ -36,7 +35,7 @@ export const Route = createFileRoute("/")({
           name: "Aurelle Vows",
           description:
             "Luxury wedding website atelier — editorial wedding websites and digital invitation suites for modern couples.",
-          sameAs: ["https://www.instagram.com/aurellevows"],
+          sameAs: ["https://www.instagram.com/aurelle_vows"],
         }),
       },
     ],
@@ -55,7 +54,6 @@ function Index() {
       <Marquee />
       <InvitationGuide />
       <Showcase />
-      <Pricing />
       <Inquiry />
       <Footer />
     </main>

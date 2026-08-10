@@ -106,18 +106,22 @@ export function Hero({ start }: { start: boolean }) {
           </Rise>
         </div>
 
-        <div className="relative border-t border-border lg:border-t-0 lg:border-l">
-          <img
-            src={heroImg}
-            alt="Blush pink wedding invitation suite with gold foil edges, calligraphy pen and rose petals"
-            width={1024}
-            height={1280}
-            className="aspect-[4/5] h-full w-full object-cover lg:aspect-auto"
-          />
-          <p className="absolute bottom-4 left-4 bg-background/85 px-4 py-2 text-[10px] uppercase tracking-[0.3em] text-foreground backdrop-blur-sm">
-            Nº 01 — The Blush Suite
-          </p>
-        </div>
+```tsx
+<div className="relative border-t border-border lg:border-t-0 lg:border-l lg:flex lg:items-center lg:justify-center lg:overflow-hidden">
+  <img
+    src={heroImg}
+    alt="Blush pink wedding invitation suite with gold foil edges, calligraphy pen and rose petals"
+    width={1024}
+    height={1280}
+    className="aspect-[4/5] h-auto w-full object-cover object-center lg:h-full lg:w-full lg:object-center"
+  />
+
+  <p className="absolute bottom-4 left-4 bg-background/85 px-4 py-2 text-[10px] uppercase tracking-[0.3em] text-foreground backdrop-blur-sm">
+    Nº 01 — The Blush Suite
+  </p>
+</div>
+```
+
       </div>
     </section>
   );
