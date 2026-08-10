@@ -1,7 +1,7 @@
 import { useReveal } from "@/hooks/use-reveal";
 import showcase1 from "@/assets/showcase-1.webp";
-import showcase2 from "@/assets/showcase-2.webp";
-import showcase3 from "@/assets/showcase-3.webp";
+import showcase2 from "@/assets/web2.webp";
+import showcase3 from "@/assets/web3.webp";
 import showcase4 from "@/assets/showcase-4.jpg";
 
 // Replace each `url` with the couple's live website when it launches.
