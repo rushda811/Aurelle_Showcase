@@ -1,6 +1,6 @@
 import { useReveal } from "@/hooks/use-reveal";
-import showcase1 from "@/assets/showcase-1.jpg";
-import showcase2 from "@/assets/showcase-2.jpg";
+import showcase1 from "@/assets/showcase-1.png";
+import showcase2 from "@/assets/showcase-2.png";
 import showcase3 from "@/assets/showcase-3.jpg";
 import showcase4 from "@/assets/showcase-4.jpg";
 
@@ -12,8 +12,7 @@ const works = [
     names: "Amelia & Theodore",
     title: "The Blush Editorial",
     tags: "Wedding website · RSVP suite",
-    place: "Charleston, US",
-    url: "https://example.com",
+    url: "https://sakbi-rana-wedding.vercel.app/",
   },
   {
     img: showcase2,
@@ -21,8 +20,7 @@ const works = [
     names: "Sofia & Alexander",
     title: "The Arch Suite",
     tags: "Invitation · Website",
-    place: "Amalfi Coast, IT",
-    url: "https://example.com",
+    url: "https://bluewedding-invites.vercel.app/",
   },
   {
     img: showcase3,
@@ -30,8 +28,7 @@ const works = [
     names: "Isabelle & Julien",
     title: "Jardin d'Hiver",
     tags: "Website · Weekend guide",
-    place: "Paris, FR",
-    url: "https://example.com",
+    url: "https://vercel.com/fathimarushda0373-8498s-projects/beachwedding",
   },
   {
     img: showcase4,
@@ -39,7 +36,6 @@ const works = [
     names: "Noor & Elias",
     title: "Modern Vows",
     tags: "Website · Guest concierge",
-    place: "Marrakech, MA",
     url: "https://example.com",
   },
 ];
@@ -67,9 +63,7 @@ function WorkCard({ work, position }: { work: (typeof works)[number]; position: 
         >
           {work.index}
         </span>
-        <span className="text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-          {work.place}
-        </span>
+      
       </div>
       <div className="relative mt-5 overflow-hidden border border-border">
         <img
