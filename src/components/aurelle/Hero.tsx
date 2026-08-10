@@ -113,7 +113,7 @@ export function Hero({ start }: { start: boolean }) {
       alt="Blush pink wedding invitation suite with gold foil edges, calligraphy pen and rose petals"
       width={1024}
       height={1280}
-      className="aspect-[4/5] h-full w-full object-cover lg:h-[90%] lg:w-[90%]"
+      className="aspect-[4/5] h-full w-full object-cover lg:h-[85%] lg:w-[85%]"
     />
   </div>
 
