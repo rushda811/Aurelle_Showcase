@@ -100,7 +100,7 @@ export function Hero({ start }: { start: boolean }) {
           </Rise>
         </div>
 
-<div className="relative border-t border-border lg:border-t-0 lg:border-l">
+<div className="relative">
   <div className="flex h-full items-center justify-center p-6 lg:p-10">
     <img
       src={heroImg}
