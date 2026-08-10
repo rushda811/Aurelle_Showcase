@@ -30,14 +30,7 @@ const works = [
     tags: "Website · Weekend guide",
     url: "https://vercel.com/fathimarushda0373-8498s-projects/beachwedding",
   },
-  {
-    img: showcase4,
-    index: "04",
-    names: "Noor & Elias",
-    title: "Modern Vows",
-    tags: "Website · Guest concierge",
-    url: "https://example.com",
-  },
+ 
 ];
 
 function WorkCard({ work, position }: { work: (typeof works)[number]; position: number }) {
