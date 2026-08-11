@@ -2,7 +2,9 @@ import { useReveal } from "@/hooks/use-reveal";
 import showcase1 from "@/assets/showcase-1.webp";
 import showcase2 from "@/assets/web2.webp";
 import showcase3 from "@/assets/web3.webp";
-import showcase4 from "@/assets/showcase-4.jpg";
+import showcase4 from "@/assets/web4.webp";
+import showcase5 from "@/assets/web5.webp";
+import showcase6 from "@/assets/web6.webp";
 
 // Replace each `url` with the couple's live website when it launches.
 const works = [
@@ -28,9 +30,33 @@ const works = [
     names: "Isabelle & Julien",
     title: "Jardin d'Hiver",
     tags: "Website · Weekend guide",
-    url: "https://vercel.com/fathimarushda0373-8498s-projects/beachwedding",
+    url: "https://beachwedding.vercel.app/",
   },
- 
+   {
+    img: showcase4,
+    index: "04",
+    names: "Isabelle & Julien",
+    title: "Jardin d'Hiver",
+    tags: "Website · Weekend guide",
+    url: "https://garden-wedding.vercel.app/",
+  },
+     {
+    img: showcase5,
+    index: "05",
+    names: "Isabelle & Julien",
+    title: "Jardin d'Hiver",
+    tags: "Website · Weekend guide",
+    url: "https://floralwedding-five.vercel.app/",
+  },
+     {
+    img: showcase6,
+    index: "06",
+    names: "Isabelle & Julien",
+    title: "Jardin d'Hiver",
+    tags: "Website · Weekend guide",
+    url: "https://blackandwhitewedding.vercel.app/",
+  },
+
 ];
 
 function WorkCard({ work, position }: { work: (typeof works)[number]; position: number }) {
